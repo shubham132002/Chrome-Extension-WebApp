@@ -1,0 +1,125 @@
+body {
+  height: 400px;
+  width: 300px;
+  /*background-image: url("https://images.unsplash.com/photo-1503614472-8c93d56e92ce?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=500&ixid=MnwxfDB8MXxyYW5kb218MHx8bmF0dXJlfHx8fHx8MTYzNzk0Nzc2Mg&ixlib=rb-1.2.1&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=400");
+  background-color: #A9A9A9;
+  https://source.unsplash.com/400x500/?nature*/
+  background-image: url("back.jpeg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.input {
+  text-align: center;
+  margin: 10px auto;
+}
+
+input[type="submit"] {
+  border: 1px solid black;
+  width: 60px;
+  height: 20px;
+  border-radius: 4px;
+  background-color: whitesmoke;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  position: absolute;
+  left: 16%;
+  right: 33.33%;
+  top: 12.75%;
+  bottom: 83.5%;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  position: absolute;
+  left: 16%;
+  right: 33.33%;
+  top: 12.75%;
+  bottom: 83.5%;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+::-ms-input-placeholder {
+  position: absolute;
+  left: 16%;
+  right: 33.33%;
+  top: 12.75%;
+  bottom: 83.5%;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+.input input[type="text"] {
+  /* width:160px;
+  height: 55px;
+ padding: 5px 10px;
+  border:2px solid black;
+  border-radius: 1px;
+  font-family: 'Raleway', sans-serif;
+  font-weight:bold;
+  background-color: transparent;*/
+  width: 185px;
+  height: 30px;
+  position: absolute;
+  left: 10.67%;
+  right: 27.67%;
+  top: 10.75%;
+  bottom: 81.75%;
+  background: rgba(196, 196, 196, 0.5);
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(2px);
+  border-radius: 15px;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #ffffff;
+}
+.emoji {
+  text-align: center;
+}
+.card {
+  line-height: 10px;
+  width: 90%;
+  background: transparent;
+  height: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2px;
+}
+
+.close {
+  float: right;
+  margin-top: -2px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.card h1 {
+  text-align: center;
+}
+
+.card p {
+  text-align: center;
+  font-size: 15px;
+}
